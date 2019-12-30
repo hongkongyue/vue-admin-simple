@@ -1,0 +1,88 @@
+-components   组件
+  -addAndEdit           新增表单
+    editBank.vue        新增银行
+    editBusiness.vue    新增商家
+    editInform.vue      新增公告
+    editNews.vue        新增资讯
+    editShop.vue        新增门店
+    editSlide.vue       新增轮播
+    editType.vue        新增类目
+  -detail   详情组件
+    businessDetail.vue    商家详情
+    businessRunInfo.vue   商家经营信息
+    goodsDetail.vue       商品详情  
+    informDetail.vue      公告详情
+    payOrderDetail.vue    支付订单详情   
+    shopDetail.vue        门店详情
+    tallyAllInfo.vue      批量结算信息
+    userDetail.vue        用户信息
+  -search  搜索组件
+    searchAccountMoney.vue    搜索账户资金
+    searchBank.vue            搜索银行
+    searchBusiness.vue        搜索商家
+    searchBuyGoldOrder.vue    搜索买金订单
+    searchGoods.vue           搜索商品列表
+    searchGoodsOrder.vue      搜索商品订单
+    searchInform.vue          搜索公告
+    searchNews.vue            搜索资讯
+    searchPayOrder.vue        搜索支付订单
+    searchSellGoldOrder.vue   搜索卖金订单
+    searchShop.vue            搜索门店
+    searchSlide.vue           搜索轮播
+    searchTakeTheirOrder.vue  搜索自提订单
+    searchTallyOrder.vue      搜索结算订单
+    searchType.vue            搜索类目
+    searchUser.vue            搜索用户
+    searchWithdraw.vue        搜索提现订单
+-pages    页面
+  -user   用户管理
+    userList.vue    用户列表
+  -business   商家管理
+    businessList.vue    商家列表
+    shopList.vue
+  -order    订单管理
+    goodsOrderList.vue     商品订单
+    takeTheirList.vue    自提订单
+    buyGoldList.vue        买金订单
+    sellGoldList.vue        卖金订单
+  -finance    财务管理
+    tallyOrder.vue  结算订单
+    payOrder.vue    支付订单
+    withdraw.vue    提现管理
+    account.vue     账户资金
+  -goods    商品管理
+    goodsList.vue    商品列表
+    typeList.vue     类目管理
+  -operate    运营管理
+    slideList.vue   轮播图列表
+    informList.vue   平台公告
+    newsList.vue    资讯
+    searchSet.vue   搜索设置
+    recommend.vue   商品推荐
+    homeSet.vue     首页设置
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+  
