@@ -1,0 +1,79 @@
+html,body,body,#app{padding:0px;margin:0px;height:100%;overflow:auto;font-family:Arial,'微软雅黑',"\5FAE\8F6F\96C5\9ED1","Microsoft Yahei","simsun","\5B8B\4F53","宋体","\65B0\5B8B\4F53","新宋体";}
+[v-cloak] { display: none }
+dl,dd,ol,ul,li{list-style:none;list-style-type:none}
+html,body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,hr,p,pre,strong,iframe,label,input,textarea,table,tr,th,td,fieldset{margin:0;padding:0;text-align:left}
+table{color:#3c3c3c; border-collapse: collapse;}
+span{outline: none;}
+
+/* 消除滚动条 */
+::-webkit-srollbar-track-piece{background:none;-webkit-border-radius:0}
+::-webkit-scrollbar{width:8px;height:8px}
+::-webkit-scrollbar-thumb:vertical{height:8px;background-color:#bbbbbb;-webkit-border-radius:4px;outline:4px solid #ffffff;ouline-offset:-2px;border:0px solid #ffffff}
+::-webkit-scrollbar-thumb:hover{height:8px;background-color:#999999;-webkit-border-radius:4px}
+::-webkit-scrollbar-thumb:horizontal{width:50px;background-color:#bbbbbb;-webkit-border-radius:4px;outline:4px solid #ffffff;ouline-offset:-2px;border:0px solid #ffffff}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+
+
+h4{margin:0px;}
+
+/* 重新定义@font-face,因为ElementUI生成的地址不正确 ,要写入到行间，否则会报错*/
+/* @font-face{font-family:element-icons;src:url(../../assets/fonts/2fad952a20fbbcfd1bf2ebb210dccf7a.woff) format("woff"),url(../../assets/fonts/6f0a76321d30f3c8120915e57f7bd77e.ttf) format("truetype") !important;} */
+
+
+/*清除浮动*/
+.clearfix{*zoom:1;} /*解决ie6/7下面的浮动塌陷问题*/
+.clearfix:before,
+.clearfix:after{display:table; line-height:0; content:" ";} /*display:table;解决其他下面的浮动塌陷问题,line-height是将添加的内容高度设为0；*/
+.clearfix:after{clear: both;}/*清楚浮动*/
+.fl{float:left;}.fr{float:right;}
+
+
+/* elementUI样式修改 */
+.el-radio__input.is-disabled .el-radio__inner{box-shadow: none !important;}
+.el-dialog__header{border-bottom:1px solid rgba(0,0,0,.08);}
+.el-select{display: block !important;}
+
+
+// 搜索框样式
+.search{border-radius: 8px;border:1px solid rgba(0,0,0,.08);padding:20px;
+  .el-row:not(:first-child){margin-top:20px;}
+  .demonstration{font-size:14px;padding-right:5px;color:#606266;}
+  .btn_box{text-align: right;}
+  
+}
+
+// 表格样式
+.table_box{
+  margin-top:20px;
+  .el-button--mini{padding-top:4px;padding-bottom:4px;}
+  .page_box{text-align: center;margin-top:20px;}
+}
+
+// 详情样式
+.detail_dialog,.add_edit_dialog{
+  .el-dialog__body{padding-top:0px !important;}
+}
+.detail{
+  section{margin-top:20px;border:1px solid rgba(0,0,0,.08);
+    .con{padding:15px;}
+  }
+  h3{font-size:16px;line-height: 30px;padding-left:15px;border-bottom: 1px solid rgba(0,0,0,.08);background-color:rgba(0,0,0,.08);}
+  .el-row:not(:first-child){margin-top:20px;}
+  .name{font-weight: bold;display: inline-block;width:80px;text-align:right;padding-right:10px;}
+  .name_w140{width:140px;}
+
+}
+
+.add_edit{
+  padding-top:15px;
+  .btn_box{padding-left:0px;margin-top:20px;}
+}
